@@ -14,8 +14,8 @@ public class Point {
         this.y = y;
         this.stepX = stepX;
         this.stepY = stepY;
-        this.down = down;
         this.right = right;
+        this.down = down;
         this.white = true;
         this.boom = false;
         this.boomDelay = 0;

@@ -136,7 +136,6 @@ public class Chaos {
             }
             int step = (maxVal - minVal) / 35; // Цена деления
             if (step < 1) step = 1;
-
             for (int i = 0; i < dimCount; i++) {
                 int dimStep = dimensions.size() / 70;
                 if (dimStep < 1) dimStep = 1;
